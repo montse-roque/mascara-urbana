@@ -1,1 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Máscara Urbana | Maquillaje de Caracterización y Arte Urbano</title>
+
+    <meta name="description"
+        content="Máscara Urbana es un espacio dedicado al maquillaje de caracterización, arte urbano, cultura de barrio, performance, cosplay y creatividad comunitaria en México.">
+
+    <meta name="keywords"
+        content="maquillaje de caracterización, arte urbano, maquillaje artístico, fx makeup, cultura urbana, graffiti, performance, cosplay, maquillaje teatral, creatividad comunitaria">
+
+    <meta name="author" content="Máscara Urbana">
+
+    <meta property="og:title" content="Máscara Urbana">
+    <meta property="og:description"
+        content="Maquillaje de caracterización, arte urbano y cultura de barrio mexicana.">
+    <meta property="og:type" content="website">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .hero {
+            background:
+                linear-gradient(rgba(0, 0, 0, .75),
+                    rgba(0, 0, 0, .75)),
+                url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-8px);
+            transition: .3s;
+        }
+
+        .gallery img {
+            transition: .3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="bg-zinc-950 text-white">
+
+    <!-- MENU -->
+
+    <nav class="bg-black/90 fixed w-full z-50 shadow-lg">
+        <div class="container mx-auto px-6">
+
+            <div class="flex justify-between items-center py-5">
+
+                <a href="index.html"
+                    class="text-yellow-400 text-2xl font-extrabold">
+                    🎭 Máscara Urbana
+                </a>
+
+                <ul class="hidden md:flex gap-8 text-sm font-semibold">
+
+                    <li><a href="index.html" class="hover:text-cyan-400">Inicio</a></li>
+
+                    <li><a href="nosotros.html" class="hover:text-cyan-400">Proyecto</a></li>
+
+                    <li><a href="caracterizacion.html" class="hover:text-cyan-400">Caracterización</a></li>
+
+                    <li><a href="galeria.html" class="hover:text-cyan-400">Galería</a></li>
+
+                    <li><a href="blog.html" class="hover:text-cyan-400">Blog</a></li>
+
+                    <li><a href="contacto.html" class="hover:text-cyan-400">Contacto</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <section class="hero min-h-screen flex items-center">
+
+        <div class="container mx-auto px-6">
+
+            <div class="max-w-4xl">
+
+                <span
+                    class="bg-yellow-500 text-black px-4 py-2 rounded-full font-bold text-sm">
+                    CULTURA URBANA • MAQUILLAJE • PERFORMANCE
+                </span>
+
+                <h1 class="text-5xl md:text-7xl font-black mt-6 mb-6">
+
+                    DEL BARRIO AL CINE
+
+                </h1>
+
+                <p class="text-xl md:text-2xl text-gray-200 leading-relaxed">
+
+                    Explora el maquillaje de caracterización,
+                    los efectos especiales y la creatividad urbana
+                    inspirada en las calles, el arte comunitario
+                    y la transformación visual.
+
+                </p>
+
+                <div class="mt-10">
+
+                    <a href="galeria.html"
+                        class="bg-yellow-500 text-black font-bold px-8 py-4 rounded-lg mr-4 hover:bg-yellow-400">
+
+                        Ver Galería
+
+                    </a>
+
+                    <a href="nosotros.html"
+                        class="border border-white px-8 py-4 rounded-lg hover:bg-white hover:text-black">
+
+                        Conocer Proyecto
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- STORYTELLING -->
+
+    <section class="py-24 bg-zinc-900">
+
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-black text-yellow-400 mb-10">
+
+                ¿Sabías que?
+
+            </h2>
+
+            <div class="max-w-5xl mx-auto space-y-8 text-lg leading-9">
+
+                <p>
+                    Jacob Elordi pasó aproximadamente 500 horas siendo transformado para
+                    interpretar al monstruo Frankenstein en la adaptación cinematográfica
+                    dirigida por Guillermo del Toro.
+                </p>
+
+                <div
+                    class="bg-zinc-950 border-l-4 border-cyan-400 p-8 rounded-lg">
+
+                    <p class="text-2xl font-bold">
+
+                        ¿Te imaginas pasar alrededor de 500 horas siendo transformado
+                        en Frankenstein a lado de uno de los cineastas más influyentes
+                        del mundo?
+
+                    </p>
+
+                </div>
+
+                <p>
+
+                    Mientras Hollywood cuenta con grandes estudios, departamentos de
+                    maquillaje y tecnología especializada, en nuestros barrios el arte
+                    surge entre creatividad, escenarios comunitarios, cultura urbana,
+                    danza, hip hop y expresión artística.
+
+                </p>
+
+                <p>
+
+                    El maquillaje de caracterización permite crear personajes,
+                    narrativas visuales y experiencias que transforman la manera
+                    en que vemos el arte y la identidad.
+
+                </p>
+
+                <p class="text-yellow-300 font-bold text-xl">
+
+                    No hace falta estar en Hollywood para crear algo extraordinario.
+                    Las grandes historias también nacen en las calles.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- COMUNIDAD -->
+
+    <section class="py-24">
+
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-black text-center mb-16">
+
+                Nuestra Comunidad
+
+            </h2>
+
+            <div class="grid md:grid-cols-4 gap-8">
+
+                <div class="card-hover bg-zinc-900 p-8 rounded-xl">
+
+                    <h3 class="text-xl font-bold mb-3">
+                        🎨 Artistas
+                    </h3>
+
+                    <p>
+                        Creativos que utilizan la caracterización para contar historias.
+                    </p>
+
+                </div>
+
+                <div class="card-hover bg-zinc-900 p-8 rounded-xl">
+
+                    <h3 class="text-xl font-bold mb-3">
+                        🛹 Cultura Urbana
+                    </h3>
+
+                    <p>
+                        Expresión visual conectada con calles, murales y comunidad.
+                    </p>
+
+                </div>
+
+                <div class="card-hover bg-zinc-900 p-8 rounded-xl">
+
+                    <h3 class="text-xl font-bold mb-3">
+                        🎭 Performance
+                    </h3>
+
+                    <p>
+                        Escenarios alternativos y experiencias inmersivas.
+                    </p>
+
+                </div>
+
+                <div class="card-hover bg-zinc-900 p-8 rounded-xl">
+
+                    <h3 class="text-xl font-bold mb-3">
+                        💄 Caracterización
+                    </h3>
+
+                    <p>
+                        Transformación artística mediante maquillaje y efectos especiales.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALERÍA PREVIA -->
+
+    <section class="py-24 bg-zinc-900">
+
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-black text-center mb-12">
+
+                Inspiración Visual
+
+            </h2>
+
+            <div class="gallery grid md:grid-cols-3 gap-6">
+
+                <img class="rounded-xl"
+                    src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80">
+
+                <img class="rounded-xl"
+                    src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80">
+
+                <img class="rounded-xl"
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80">
+
+            </div>
+
+            <div class="text-center mt-12">
+
+                <a href="galeria.html"
+                    class="bg-cyan-500 text-black font-bold px-8 py-4 rounded-lg">
+
+                    Ver Galería Completa
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+
+    <section
+        class="py-24 bg-gradient-to-r from-yellow-500 to-orange-500 text-black">
+
+        <div class="container mx-auto text-center px-6">
+
+            <h2 class="text-5xl font-black mb-6">
+
+                EL ARTE SE TRANSFORMA
+
+            </h2>
+
+            <p class="text-2xl max-w-3xl mx-auto">
+
+                Descubre cómo el maquillaje de caracterización
+                puede convertir una idea en una historia visual.
+
+            </p>
+
+            <a href="contacto.html"
+                class="inline-block mt-10 bg-black text-white px-10 py-4 rounded-lg font-bold">
+
+                Contáctanos
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-black py-10">
+
+        <div class="container mx-auto text-center px-6">
+
+            <h3 class="text-xl font-bold text-yellow-400 mb-4">
+
+                Máscara Urbana
+
+            </h3>
+
+            <p class="text-gray-400">
+
+                Arte • Cultura Urbana • Maquillaje de Caracterización
+
+            </p>
+
+            <p class="text-gray-500 mt-4 text-sm">
+
+                © 2026 Todos los derechos reservados.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
